@@ -18,7 +18,9 @@ export function Header() {
             href="/login"
             className="px-4 py-2 text-white rounded-xl sm:border "
           >
-            <span className="hidden sm:block">Login</span>
+            <span className="hidden sm:flex items-center gap-2">
+              Login <LogIn size={16} />
+            </span>
             <LogIn className="block  sm:hidden " />
           </Link>
         </div>
