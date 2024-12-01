@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { LogIn } from "lucide-react";
+import Image from "next/image";
+import { div } from "framer-motion/client";
 
 const animationNavbar = {
   hidden: {
@@ -48,14 +50,18 @@ export function Navbar() {
           initial="hidden"
           animate="animate"
           exit="exit"
-          className="fixed z-[9999]  right-0 left-0 px-3 md:px-5 py-2 text-white bg-gray-400/30 justify-self-end top-10 rounded-3xl backdrop-blur w-fit  mr-3 sm:mr-6"
+          className="fixed z-[9999] justify-self-center mx-auto px-4 md:px-5 py-2 text-white w-full md:w-[1280px]  top-10 rounded-3xl mr-3 sm:mr-6 bg-slate-300/20"
         >
-          <div className="flex items-center gap-3  md:gap-3 md:flex-row">
+          <div className=" w-full sm:px-8 flex items-center justify-between gap-3 md:gap-3 md:flex-row ">
+            <Link href="/">
+              <Image src="/logo.png" alt="logo" width={230} height={180} />
+            </Link>
             <Link
               href="/login"
-              className="text-xs md:text-base px-2 py-1 sm:px-5 sm:py-2 text-white rounded-lg  hover:bg-transparent flex  items-center gap-3"
+              className="text-xs md:text-base px-2 py-1 sm:px-5 sm:py-2 text-white rounded-lg sm:border hover:bg-transparent flex items-center gap-2"
             >
-              <span className="font-semibold">Login</span> <LogIn size={16} />
+              <span className="font-semibold hidden sm:block">Login</span>{" "}
+              <LogIn size={16} />
             </Link>
           </div>
         </motion.nav>
