@@ -2,9 +2,10 @@ import { useEffect, useState } from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
-import { LogIn } from "lucide-react";
+
 import Image from "next/image";
-import { div } from "framer-motion/client";
+import { SignInButton } from "@clerk/nextjs";
+import { SignIn } from "@clerk/clerk-react";
 
 const animationNavbar = {
   hidden: {
@@ -56,13 +57,17 @@ export function Navbar() {
             <Link href="/">
               <Image src="/logo.png" alt="logo" width={230} height={180} />
             </Link>
-            <Link
-              href="/login"
+
+            <SignInButton>
+              <SignIn />
+            </SignInButton>
+            {/*  <Link
+              href="/sign-in"
               className="text-xs md:text-base px-2 py-1 sm:px-5 sm:py-2 text-white rounded-lg sm:border hover:bg-transparent flex items-center gap-2"
             >
               <span className="font-semibold hidden sm:block">Login</span>{" "}
               <LogIn size={16} />
-            </Link>
+            </Link> */}
           </div>
         </motion.nav>
       )}
