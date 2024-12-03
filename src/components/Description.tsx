@@ -33,7 +33,7 @@ const Description = () => {
             alt="foto Raphael"
             width={600}
             height={700}
-            className="object-cover rounded-lg"
+            className="object-cover rounded-sm"
           />
         </div>
       </Transition>
