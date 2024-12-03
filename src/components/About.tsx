@@ -8,8 +8,8 @@ import { Header } from "./Header";
 
 const About = () => {
   return (
-    <div className="bg-zinc-600/60 relative h-[657px] md:h-[970px] w-full">
-      <div className="bg-[url('/about.jpg')] bg-cover bg-center h-[657px] md:h-[970px] w-full">
+    <div className="bg-zinc-600/60 relative h-[659px] md:h-[970px] w-full">
+      <div className="bg-[url('/about.jpg')] bg-cover bg-center h-[659px] md:h-[970px] ">
         <Transition>
           <Header />
           <div className="flex flex-col sm:grid sm:grid-cols-[1fr,3fr] max-w-[1200px] mx-auto text-center space-y-3 mt-16 md:mt-32">

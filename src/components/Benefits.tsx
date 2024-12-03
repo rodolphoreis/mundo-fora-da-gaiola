@@ -1,39 +1,107 @@
+import { Check } from "lucide-react";
 import Image from "next/image";
 
 const Benefits = () => {
   return (
-    <div className="w-full h-screen bg-customGreenSecondary">
-      <div className="container max-w-[1200px] mx-auto  grid grid-cols-2">
+    <div className="w-full min-h-screen bg-customGreenSecondary flex flex-col">
+      <div className="container max-w-[1200px] mx-auto flex flex-col gap-12 px-4 py-8 md:grid md:grid-cols-2 ">
+        <div className="md:px-32 md:py-16">
+          <h1 className="text-2xl  mb-6 text-customGreen justify-center text-center">
+            No Mundo Fora da Gaiola <br />
+            <span className="text-green-700 font-semibold">
+              você será capaz de:
+            </span>
+          </h1>
+          <div className="text-base flex flex-col gap-4">
+            <p className=" flex gap-2 ">
+              {" "}
+              <Check
+                strokeWidth={3}
+                className="font-bold text-green-700"
+              />{" "}
+              <span>
+                Criar um passo a passo para organizar a sua vida financeira;
+              </span>
+            </p>
+            <p className=" flex gap-2 ">
+              {" "}
+              <Check
+                strokeWidth={3}
+                className="font-bold text-green-700"
+              />{" "}
+              <span>
+                Otimizar o uso do cartão de crédito com descontos e milhas
+                aéreas;
+              </span>
+            </p>
+            <p className=" flex gap-2 ">
+              {" "}
+              <Check
+                strokeWidth={3}
+                className="font-bold text-green-700"
+              />{" "}
+              <span>
+                Se preparar para o futuro sem abrir mão de viver o presente;
+              </span>
+            </p>
+            <p className=" flex gap-2 ">
+              {" "}
+              <Check
+                strokeWidth={3}
+                className="font-bold text-green-700"
+              />{" "}
+              <span>
+                Acumular, multiplicar e consumir milhas aéreas com înteligência;
+              </span>
+            </p>
+            <p className=" flex gap-2 ">
+              {" "}
+              <Check
+                strokeWidth={3}
+                className="font-bold text-green-700"
+              />{" "}
+              <span>
+                Desenvolver novas fontes de renda online para começar a
+                investir;
+              </span>
+            </p>
+            <p className=" flex gap-2 ">
+              {" "}
+              <Check
+                strokeWidth={3}
+                className="font-bold text-green-700"
+              />{" "}
+              <span>
+                Ignorar notícias inúteis sobre o governo, economia e
+                influenciadores;
+              </span>
+            </p>
+            <p className="text-center text-customGreen">
+              Na nossa <span className="font-semibold">Comunidade</span>, você
+              ainda terá contato diário com dezenas de pessoas loucas o bastante
+              para acreditarem que podem{" "}
+              <span className="font-semibold">
+                fugir da rotina e realizar sonhos
+              </span>
+              criando mais tempo e mais dinheiro.
+            </p>
+            <p className="text-center text-customGreen">
+              Uma coisa eu posso te garantir:
+            </p>
+            <p className="text-center text-customGreen font-semibold">
+              A vida é melhor - e mais barata <br />
+              Fora da Gaiola.
+            </p>
+          </div>
+        </div>
         <div>
           <Image
-            src="/raphael.jpg"
+            src="/img-rapha.webp"
             alt="foto Raphael"
-            width={600}
-            height={700}
-            className="object-cover"
+            width={700}
+            height={600}
+            className="object-cover rounded-md md:rounded-sm px-4"
           />
-        </div>
-        <div className="px-32 py-16">
-          <h1 className="text-3xl font-extrabold mb-6">
-            &quot;Mas que bruxaria você está fazendo?&quot;
-          </h1>
-          <p className="text-base">
-            Já imaginou ouvir isso de pessoas próximas, surpresas com as coisas
-            que você começou a fazer &quot;do nada&quot;? <br />
-            <br />
-            <strong>Conheço sua situação:</strong> muito trabalho, sem tempo nem
-            dinheiro para nada e com a sensação de andar em círculos. <br />
-            <br />
-            Meu nome é <strong>Raphael Figueiredo</strong>, sou Gestor
-            Financeiro e por quinze anos a minha vida também era desse jeito.
-            Casa, trabalho, redes sociais e festas. Mas eu era infeliz. Faltava
-            alguma coisa. <br />
-            <br />
-            <strong>Me sentia numa Gaiola.</strong> <br /> <br />
-            Meu sonho era ser livre e estudei muito sobre como usar o dinheiro
-            para comprar a minha liberdade. Era chamado de maluco, óbvio. Até
-            que comecei a viver um sonho e comecei a ser chamado de Bruxo.
-          </p>
         </div>
       </div>
     </div>

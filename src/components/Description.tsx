@@ -27,13 +27,13 @@ const Description = () => {
             que comecei a viver um sonho e comecei a ser chamado de Bruxo.
           </p>
         </div>
-        <div className=" md:mr-40">
+        <div className=" md:mr-40 mb-[-16px] ">
           <Image
             src="/raphael.jpg"
             alt="foto Raphael"
             width={600}
             height={700}
-            className="object-cover rounded-sm"
+            className="object-cover rounded-t-sm md:rounded-sm mb-[-16px]"
           />
         </div>
       </Transition>
