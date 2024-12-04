@@ -24,7 +24,7 @@ const About = () => {
                 tranquilo e seguro sem deixar de aproveitar a vida no presente.
               </p>
               <Link href="/sign-in">
-                <Button className="rounded-full bg-customGreen text-white border border-white px-16 md:px-6 py-7 font-bold text-base -tracking-tighter mt-10 md:w-full">
+                <Button className="rounded-full bg-[#4FA81F] hover:bg-slate-100 hover:text-[#4FA81F] text-white border border-white px-16 md:px-6 py-7 font-bold text-base -tracking-tighter mt-10 md:w-full">
                   EU QUERO SER LIVRE
                 </Button>
               </Link>

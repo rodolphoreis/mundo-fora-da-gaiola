@@ -4,7 +4,7 @@ import Transition from "./Transition/Transition";
 const Description = () => {
   return (
     <div className="bg-customGreen pt-10 ">
-      <Transition className="px-4 py-8  md:px-32 flex flex-col sm:grid sm:grid-cols-[2fr,2fr] gap-10 sm:gap-20">
+      <Transition className="px-4 py-8  md:px-16 flex flex-col sm:grid sm:grid-cols-[2fr,2fr] gap-10 sm:gap-20">
         <div className="text-slate-100 p-5 sm:p-16 text-base sm:leading-7 sm:mt-[-55px] md:max-w-[700px] md:ml-40">
           <h1 className="text-3xl font-extrabold mb-6">
             &quot;Mas que bruxaria você está fazendo?&quot;
@@ -27,13 +27,13 @@ const Description = () => {
             que comecei a viver um sonho e comecei a ser chamado de Bruxo.
           </p>
         </div>
-        <div className=" md:mr-40 mb-[-16px] ">
+        <div className=" md:mr-40 mb-[-16px] sm:mt-[-73px]">
           <Image
             src="/raphael.jpg"
             alt="foto Raphael"
-            width={600}
-            height={700}
-            className="object-cover rounded-t-sm md:rounded-sm mb-[-16px]"
+            width={1000}
+            height={900}
+            className="object-cover rounded-t-sm mb-[-16px] "
           />
         </div>
       </Transition>
