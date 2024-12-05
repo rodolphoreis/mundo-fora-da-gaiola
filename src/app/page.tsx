@@ -1,5 +1,6 @@
 "use client";
 import About from "@/components/About";
+import AboutWorldImg from "@/components/AboutWorldImg";
 import Benefits from "@/components/Benefits";
 import Description from "@/components/Description";
 import TransitionPage from "@/components/TransitionPage/TransitionPage";
@@ -11,6 +12,7 @@ export default function Home() {
       <About />
       <Description />
       <Benefits />
+      <AboutWorldImg />
     </div>
   );
 }

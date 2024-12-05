@@ -4,6 +4,7 @@ import { LogIn } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Navbar } from "./Navbar";
+import ShimmerButton from "./ui/shimmer-button";
 
 export function Header() {
   return (
@@ -16,14 +17,13 @@ export function Header() {
         <Navbar />
 
         <div className="flex items-center gap-2 md:gap-5">
-          <Link
-            href="/login"
-            className="px-4 py-2 text-white rounded-xl sm:border "
-          >
-            <span className="hidden sm:flex items-center gap-2">
-              Login <LogIn size={16} />
-            </span>
-            <LogIn className="block  sm:hidden " />
+          <Link href="/login" className="px-4 py-2 text-white  ">
+            <ShimmerButton className="shadow-2xl" background="#485342">
+              <span className="hidden sm:flex items-center gap-2">
+                Login <LogIn size={16} />
+              </span>
+              <LogIn className="block  sm:hidden " size={16} />
+            </ShimmerButton>
           </Link>
         </div>
       </div>
