@@ -6,9 +6,9 @@ const AnnualSubscription = () => {
   return (
     <div className="w-full bg-customGreenSecondary flex flex-col sm:flex-row items-center justify-center">
       <Transition className=" py-14  md:px-16 flex flex-col sm:grid sm:grid-cols-[2fr,2fr] max-w-[1200px] mx-auto gap-5 ">
-        <div className="text-customGreen flex flex-col p-2 sm:p-10 text-base sm:leading-7 gap-10  sm:gap-8">
+        <div className="text-customGreen flex flex-col gap-4 p-2 sm:p-10 text-base sm:leading-7">
           <h1 className="text-3xl md:text-4xl text-center leading-4">
-            O que você vai receber na <br />
+            O que você vai receber na
             <br />
             <span className="font-bold leading-4">Assinatura Anual:</span>
           </h1>
@@ -63,9 +63,9 @@ const AnnualSubscription = () => {
           <Image
             src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1006,h=474,fit=crop,trim=117.01492537313433;0;117.01492537313433;0/dOqNEMoz5zhyVXp6/cover-1-m5KlVvGNv5UEM6a1.png"
             alt="imagem o mapa das milhas"
-            width={720}
+            width={220}
             height={50}
-            className="w-full h-full rounded-md md:rounded-sm px-4 "
+            className="w-full rounded-md md:rounded-sm px-4 "
           />
         </div>
       </Transition>
