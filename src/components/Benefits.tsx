@@ -4,7 +4,7 @@ import Transition from "./Transition/Transition";
 
 const Benefits = () => {
   return (
-    <div className="w-full min-h-screen bg-customGreenSecondary flex flex-col">
+    <div className="w-full bg-customGreenSecondary flex flex-col">
       <Transition>
         <div className="container max-w-[1200px] mx-auto flex flex-col gap-12 px-4 py-8 md:grid md:grid-cols-2 md:py-0">
           <div className="hidden sm:block md:mr-[-60px]">

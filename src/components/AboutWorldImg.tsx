@@ -18,7 +18,7 @@ const AboutWorldImg = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen items-center text-center-center bg-customGreenSecondary flex flex-col ">
+    <div className="w-full py-10 md:py-16 items-center text-center-center bg-customGreenSecondary flex flex-col ">
       <Transition>
         <h1 className=" text-customGreen font-semibold self-center text-2xl md:text-4xl mb-3  md:mb-10 ">
           O que falam do{" "}
