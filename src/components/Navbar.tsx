@@ -5,7 +5,6 @@ import Link from "next/link";
 
 import Image from "next/image";
 import { LogIn } from "lucide-react";
-import ShimmerButton from "./ui/shimmer-button";
 
 const animationNavbar = {
   hidden: {
@@ -62,13 +61,8 @@ export function Navbar() {
               href="/sign-in"
               className="text-xs md:text-base px-2 py-1 sm:px-5 sm:py-2 text-white hover:bg-transparent flex items-center gap-2"
             >
-              <ShimmerButton
-                className="shadow-2xl flex gap-2"
-                background="#485342"
-              >
-                <span className="font-semibold hidden sm:block">Login</span>{" "}
-                <LogIn size={16} />
-              </ShimmerButton>
+              <span className="font-medium hidden sm:block">LOGIN</span>{" "}
+              <LogIn size={16} />
             </Link>
           </div>
         </motion.nav>
