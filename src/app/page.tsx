@@ -1,6 +1,7 @@
 "use client";
 import About from "@/components/About";
 import AboutWorldImg from "@/components/AboutWorldImg";
+import AnnualSubscription from "@/components/AnnualSubscription";
 import Benefits from "@/components/Benefits";
 import Description from "@/components/Description";
 import TransitionPage from "@/components/TransitionPage/TransitionPage";
@@ -15,6 +16,7 @@ export default function Home() {
       <Benefits />
       <AboutWorldImg />
       <Video />
+      <AnnualSubscription />
     </div>
   );
 }
