@@ -4,6 +4,7 @@ import AboutWorldImg from "@/components/AboutWorldImg";
 import Benefits from "@/components/Benefits";
 import Description from "@/components/Description";
 import TransitionPage from "@/components/TransitionPage/TransitionPage";
+import Video from "@/components/Video";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Description />
       <Benefits />
       <AboutWorldImg />
+      <Video />
     </div>
   );
 }
