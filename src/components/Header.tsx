@@ -10,7 +10,7 @@ export function Header() {
     <header className="w-full ">
       <div className="max-w-[1200px] flex items-center justify-between pt-5 md:pt-10 md:px-0 mx-auto">
         <Link href="/">
-          <Image src="/logo.png" alt="logo" width={300} height={200} />
+          <Image src="/logo.png" alt="logo" width={330} height={200} />
         </Link>
 
         <Navbar />

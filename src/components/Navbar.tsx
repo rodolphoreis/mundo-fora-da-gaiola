@@ -54,7 +54,7 @@ export function Navbar() {
         >
           <div className=" w-full max-w-[1275px] mx-auto sm:px-8 flex items-center justify-between gap-3 md:gap-3 md:flex-row ">
             <Link href="/">
-              <Image src="/logo.png" alt="logo" width={230} height={180} />
+              <Image src="/logo.png" alt="logo" width={330} height={200} />
             </Link>
 
             <Link
