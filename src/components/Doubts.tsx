@@ -6,15 +6,16 @@ import { FaFacebook } from "react-icons/fa";
 const Doubts = () => {
   return (
     <div className="w-full bg-customGreen flex flex-col justify-center items-center py-14">
-      <Transition className="flex flex-col items-center justify-center max-w-[1200px] gap-4 sm:gap-8 text-slate-100">
+      <Transition className="flex flex-col items-center justify-center text-center max-w-[1200px] gap-4 sm:gap-8 text-slate-100">
         <h1 className="text-2xl sm:text-5xl font-bold sm:font-bold">
           Ficou com dúvidas?
         </h1>
-        <div className="flex flex-col items-center justify-center gap-1 text-lg sm:text-xl">
+        <div className="text-base sm:text-2xl">
           <p>Entre em contato por uma de nossas redes sociais!</p>
-          <p>Será um prazer te ajudar.</p>
+          <p> Será um prazer te ajudar.</p>
         </div>
-        <div className="flex gap-28">
+
+        <div className="flex gap-16 sm:gap-28">
           <Link
             href="https://www.facebook.com/blogpensandoforadagaiola/"
             target="_blank"
