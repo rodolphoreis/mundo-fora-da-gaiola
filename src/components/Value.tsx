@@ -40,12 +40,12 @@ const Value = () => {
             />
           </div>
           <div className="flex flex-col gap-4 justify-center text-zinc-700 px-4 text-center sm:text-left">
-            <div className="flex justify-center text-center sm:text-left sm:justify-start">
+            <div className="flex justify-center text-center sm:text-left sm:justify-start text-customGreen">
               <h3 className=" text-xl font-semibold text-center sm:text-left">
                 Garantia de Satisfação
               </h3>
             </div>
-            <div className="flex flex-col gap-4 md:gap-6 md:max-w-[500px] leading-8">
+            <div className="flex flex-col text-customGreen gap-4 md:gap-6 md:max-w-[500px] leading-8">
               <p>
                 Como eu tenho certeza que o Mundo Fora da Gaiola vai mudar sua
                 vida e sua relação com o dinheiro, te ofereço uma garantia
