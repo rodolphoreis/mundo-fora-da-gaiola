@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Controle Financeiro - Raphael Figueiredo
 
-## Getting Started
+Este é um projeto [Next.js](https://nextjs.org) para o site de controle financeiro do analista financeiro Raphael Figueiredo. O site está em fase de construção e atualmente possui apenas a página inicial. Futuramente, serão adicionadas funcionalidades como acesso de login, dashboard, área para membros, entre outras.
 
-First, run the development server:
+![Home do Site](public/desktop.png)
 
+## Deploy
+Este projeto está disponível online. Acesse a versão deployada [aqui](https://mundo-fora-da-gaiola.vercel.app/) (clique com o botão direito e escolha "Abrir link em uma nova aba").
+
+## Instalação
+Para começar a usar este projeto, siga estas etapas:
+
+1. Clone o repositório:
+ ```bash
+ git clone https://github.com/rodolphoreis/mundo-fora-da-gaiola.git
+ cd seu-repositorio
+ ```
+   
+2. Instale as dependências:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+# ou
+bun install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
+# ou
+yarn dev
+# ou
+pnpm dev
+# ou
+bun dev
+```
+Abra o navegador e navegue até http://localhost:3000 para ver a aplicação.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Funcionalidades
+Página Inicial: Apresentação do site e do analista financeiro Raphael Figueiredo.
+Futuras Funcionalidades: Acesso de login, dashboard, área para membros, entre outras.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Tecnologias Utilizadas
+Frontend: Next.js, React, Tailwind CSS.
+Design Responsivo: Interface otimizada para desktop e mobile.
 
-## Learn More
+# Roadmap
+Versão 1.0: Implementação da página inicial.
+Versão 2.0: Adição de funcionalidades como login, dashboard e área para membros.
 
-To learn more about Next.js, take a look at the following resources:
+# Contribuição
+Contribuições são bem-vindas! Se você gostaria de contribuir para este projeto, por favor, faça um fork do repositório e envie um pull request com suas alterações.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Contato
+Siga Raphael Figueiredo no Instagram: [aqui](https://www.instagram.com/raphamundii/) (clique com o botão direito e escolha "Abrir link em uma nova aba").
