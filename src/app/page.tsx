@@ -6,6 +6,7 @@ import Benefits from "@/components/Benefits";
 import Bonus from "@/components/Bonus";
 import Description from "@/components/Description";
 import Doubts from "@/components/Doubts";
+import Footer from "@/components/Footer";
 import TransitionPage from "@/components/TransitionPage/TransitionPage";
 import Value from "@/components/Value";
 import Video from "@/components/Video";
@@ -23,6 +24,7 @@ export default function Home() {
       <Bonus />
       <Value />
       <Doubts />
+      <Footer />
     </div>
   );
 }
