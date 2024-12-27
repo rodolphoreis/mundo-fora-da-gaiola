@@ -10,7 +10,7 @@ const Value = () => {
         <div className="container max-w-[1200px] mx-auto flex flex-col gap-12 px-4 py-8 md:py-0 text-customGreen justify-center items-center">
           <div className="flex flex-col max-w-[500px]">
             <div className="flex flex-col sm:flex-row gap-1">
-              <div className="flex gap-2 sm:flex-col align-bottom justify-end font-medium text-3xl">
+              <div className="flex gap-2 sm:flex-col align-bottom justify-end font-medium text-2xl min-w-36 ">
                 <h3>Tudo isso </h3>
                 <h3>por apenas</h3>
               </div>
