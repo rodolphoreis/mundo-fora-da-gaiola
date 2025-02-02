@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.10.6",
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",
     "@radix-ui/react-dialog": "^1.1.4",
@@ -20,7 +21,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^11.15.0",
     "lucide-react": "^0.462.0",
-    "next": "14.2.18",
+    "next": "^14.2.23",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.4.0",
