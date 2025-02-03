@@ -6,8 +6,21 @@ import Link from "next/link";
 import { Navbar } from "./Navbar";
 import { ClerkProvider, SignedOut, SignInButton } from "@clerk/nextjs";
 import { Button } from "./ui/button";
+import { useUser } from "@clerk/nextjs";
+import { useRouter } from "next/navigation";
+
+import { useEffect } from "react";
 
 export function Header() {
+  const { isSignedIn } = useUser();
+  const router = useRouter();
+
+  useEffect(() => {
+    if (isSignedIn) {
+      router.push("/dashboard");
+    }
+  }, [isSignedIn, router]);
+
   return (
     <ClerkProvider>
       <header className="w-full ">
