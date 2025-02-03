@@ -37,14 +37,13 @@ export function Header() {
                 variant={"link"}
                 className="px-4 py-2 text-white underline underline-offset-4 "
               >
-                <span className="hidden sm:flex items-center gap-2 font-medium">
-                  <SignInButton />
+                <span className="flex items-center gap-1 font-medium underline underline-offset-4 ">
+                  <SignInButton>Entrar </SignInButton>
                   <LogIn size={16} />
                 </span>
               </Button>
+              {/* <LogIn className="block  sm:hidden " color="white" size={16} /> */}
             </SignedOut>
-
-            <LogIn className="block  sm:hidden " color="white" size={16} />
           </div>
         </div>
       </header>
