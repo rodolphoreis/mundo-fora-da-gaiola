@@ -5,6 +5,8 @@ import Link from "next/link";
 
 import Image from "next/image";
 import { LogIn } from "lucide-react";
+import { SignedOut, SignInButton } from "@clerk/nextjs";
+import { Button } from "./ui/button";
 
 const animationNavbar = {
   hidden: {
@@ -57,13 +59,21 @@ export function Navbar() {
               <Image src="/logo.png" alt="logo" width={330} height={200} />
             </Link>
 
-            <Link
-              href="/sign-in"
-              className="text-xs md:text-base px-2 py-1 sm:px-5 sm:py-2 text-white hover:bg-transparent flex items-center gap-2"
-            >
-              <span className="font-medium hidden sm:block">LOGIN</span>{" "}
-              <LogIn size={16} />
-            </Link>
+            <div className="flex  items-center gap-2 md:gap-5 mr-3">
+              <SignedOut>
+                <Button
+                  variant={"link"}
+                  className="px-4 py-2 text-white underline underline-offset-4 "
+                >
+                  <span className="hidden sm:flex items-center gap-2 font-medium">
+                    <SignInButton />
+                    <LogIn size={16} />
+                  </span>
+                </Button>
+              </SignedOut>
+
+              <LogIn className="block  sm:hidden " color="white" size={16} />
+            </div>
           </div>
         </motion.nav>
       )}
